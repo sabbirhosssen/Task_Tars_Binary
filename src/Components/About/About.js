@@ -7,7 +7,13 @@ const About = () => {
                 <h1 className='text-center text-5xl'>Who we are</h1>
                 <br/>
                 <div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores ex ea blanditiis quos quasi non quaerat harum praesentium suscipit, temporibus commodi sint neque debitis placeat, nemo alias. Nemo possimus debitis iusto qui quasi iste aliquid corporis numquam voluptatem. Eius, ab.</p>
+                    <p>
+                        <h2>ROBE SOURCING INTERNATIONAL Limited is prominent readymade garment buying agent.</h2> 
+                        <br />
+                        RSIL is a pioneering, dynamic, professionally managed business organization that has strong experience in the field of readymade garments sector with world-class service, quality solutions and value addition services to end products for the textile industries on a global level, beginning from fabrics to fashion through market knowledge, experienced sourcing professionals
+                        
+                    </p>
+                    
                 </div>
             </div>
             <div className='basis-2/4'>
