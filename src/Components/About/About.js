@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutp from "./../Images/p-5.jpeg";
 
 const About = () => {
     return (
@@ -13,11 +14,12 @@ const About = () => {
                         RSIL is a pioneering, dynamic, professionally managed business organization that has strong experience in the field of readymade garments sector with world-class service, quality solutions and value addition services to end products for the textile industries on a global level, beginning from fabrics to fashion through market knowledge, experienced sourcing professionals
                         
                     </p>
+                    <p className='text-amber-700'>more</p>
                     
                 </div>
             </div>
             <div className='basis-2/4'>
-                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum qui impedit quia neque harum sed amet delectus suscipit nihil pariatur molestiae, deserunt sequi ipsam voluptate placeat veritatis maiores itaque. Mollitia amet reiciendis optio tempore, et accusamus porro accusantium eum culpa adipisci similique veniam aliquid ipsa asperiores enim,</h3>
+                <img className='h-screen' src={aboutp } alt="" />
             </div>
         </div>
     );

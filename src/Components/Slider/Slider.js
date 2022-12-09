@@ -34,7 +34,8 @@ const Slider = () => {
             <img className='w-screen ' src={bannar_1} alt=""  />
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-screen ' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt=""  />
+            <img className='w-screen ' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt="" />
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
           </SwiperSlide>
           <SwiperSlide>
             <img className='w-screen ' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt=""  />
