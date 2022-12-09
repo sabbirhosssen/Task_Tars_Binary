@@ -14,35 +14,29 @@ import 'swiper/css/scrollbar';
 const Slider = () => {
     return (
       <div>
-        <div>
-          <h1 className='text-center text-3xl text-bload'> Our Products</h1>
-        </div>
+       
           <Swiper
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={50}
-            slidesPerView={3}
+            spaceBetween={0}
+            slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
+          onSlideChange={() => console.log('slide change')}
+          className="h-screen w-full m-0 p-0"
           >
           <SwiperSlide>
-            <img className='w-100% p-6' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt="" srcset="" />
+            <img className='w-screen ' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt=""  />
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-100% p-6' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt="" srcset="" />
+            <img className='w-screen ' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt=""  />
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-100% p-6' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt="" srcset="" />
+            <img className='w-screen ' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt=""  />
           </SwiperSlide>
-          <SwiperSlide>
-            <img className='w-100% p-6' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt="" srcset="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img className='w-100% p-6' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt="" srcset="" />
-          </SwiperSlide>
+         
            
             
             ...
