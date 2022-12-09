@@ -1,7 +1,10 @@
 import React from 'react';
 import service_pr from './../Images/service_pr.png';
 
+import service_ps from "./../Images/cervice_p4s.png";
+import service_pm from "./../Images/service_p3m.png";
 import service_prd from "./../Images/service_prd.png";
+
 
 const Service = () => {
     // const bgStyle = {
@@ -28,12 +31,12 @@ const Service = () => {
                     <p>R&D is the first step in creating new, innovative collections. GFG International's Technical Support teams create samples that suit your unique requirements in order to bring your vision to life. </p>
                 </div>
                 <div className="jfj">
-                    <img src="" alt="service_logo" />
+                    <img src={service_pm} alt="service_logo" />
                     <h4 className='py-5 text-sm'>Production</h4>
                     <p>On-site technical experts oversee and control the quality at our factories. In addition, our experienced Quality Control teams offer our partners the transparency and control required to effectively measure the quality of each order.</p>
                 </div>
                 <div className="jfj">
-                    <img src="" alt="service_logo" />
+                    <img src={service_ps} alt="service_logo" />
                     <h4 className='py-5 text-sm'>Operation Support</h4>
                     <p>We handle each step of the manufacturing process for you. From sourcing raw materials to shipping the finished product, our internal teams manage every phase of the clothing supply chain. </p>
                 </div>
