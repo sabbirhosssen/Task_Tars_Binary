@@ -4,8 +4,8 @@ import Footer from '../Footers/Footer';
 import Header from '../Headers/Header';
 import Products from '../Products/Products';
 import Service from '../Services/Service';
-import Slider from '../Slider/Slider';
 import Quality from './Homepage/Quality';
+import Slider from './Homepage/Slider/Slider';
 
 const Home = () => {
     return (

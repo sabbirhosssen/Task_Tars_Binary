@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 //import slide image
-import bannar_1 from "./../Images//bannar-1.jpeg";
+import bannar_1 from "./../../../Images/bannar-1.jpeg";
 
 const Slider = () => {
     return (
