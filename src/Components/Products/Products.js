@@ -7,6 +7,7 @@ import { A11y, Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -25,18 +26,27 @@ import product_8 from "./../Images/p-8.jpeg";
 import product_9 from "./../Images/p-9.jpeg";
 
 const Products = () => {
+   const pagination = {
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
+  };
     return (
         <div className='bg-gray-400'>
             <div>
           <h1 className='text-center text-3xl text-bload'> Our Products</h1>
         </div>
-          <Swiper
+        <Swiper
+           pagination={pagination}
+        
+        
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
             slidesPerView={3}
             // navigation
-            pagination={{ clickable: true }}
+            //pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}

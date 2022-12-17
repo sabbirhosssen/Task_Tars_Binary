@@ -1,11 +1,14 @@
 import React from 'react';
-import aboutp from "./../Images/p-5.jpeg";
+
+
+//About Image 
+import about_i from "./../Images/Bannar_family2.jpg";
 
 const About = () => {
     return (
         <div className='flex flex-row justify-items-center mt-10 mb-12 p-20 space-x-5'>
             <div className='basis-2/4 text-start'>
-                <h1 className='text-center text-5xl'>Who we are</h1>
+                <h1 className='text-start text-[80px]'>Who we are</h1>
                 <br/>
                 <div>
                     <p>
@@ -19,7 +22,7 @@ const About = () => {
                 </div>
             </div>
             <div className='basis-2/4'>
-                <img className='h-screen' src={aboutp } alt="" />
+                <img className='h-screen' src={about_i} alt="" />
             </div>
         </div>
     );
