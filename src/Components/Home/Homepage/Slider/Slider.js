@@ -14,7 +14,9 @@ import 'swiper/css/scrollbar';
 //import slide image
 // import bannar_1 from "./../../../Images/Bannar_family2.jpg";
 import bannar_1 from "./../../../Images/bannar-1.jpeg";
-import bannar_2 from "./../../../Images/Bannar_panth1.jpg";
+import bannar_2 from "./../../../Images/bannar-g1.jpg";
+import bannar_3 from "./../../../Images/Bannar_panth1.jpg";
+
 
 const Slider = () => {
     return (
@@ -34,21 +36,25 @@ const Slider = () => {
           >
           <SwiperSlide>
             <div className="image relative" id="fhj">
-              <img className='w-screen ' src={bannar_1} alt="" />
-              <div className='title-content'>
+              <img className='w-screen h-full' src={bannar_1} alt="" />
+              {/* <div className='title-content'>
                 <h2>hello </h2>
 
-              </div>
+              </div> */}
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img className='w-screen ' src={bannar_2} alt="" />
+            <img className='w-screen h-full' src={bannar_2} alt="" />
            
           </SwiperSlide>
           <SwiperSlide>
             
-            <img className='w-screen ' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt=""  />
+            <img className='w-screen  h-full' src={bannar_3} alt=""  />
           </SwiperSlide>
+          {/* <SwiperSlide>
+            
+            <img className='w-screen ' src="https://www.logodesignworks.com/wp-content/uploads/2021/10/hiker-clothing-brand-0a.jpg" alt=""  />
+          </SwiperSlide> */}
          
            
             

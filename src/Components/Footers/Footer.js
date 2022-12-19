@@ -14,8 +14,8 @@ const Footer = () => {
                     <div className=' ml-16'>
                         <img className='w-20 h-auto' src={logof} alt="" />
                     </div>
-                    <h5 className='inline  text-[18px]'> ROBE SOURCING INTERNATIONAL LTD.</h5>
-                    <p className='text-start text-[11px] p-2 mt-1 w-fit'>
+                    <h5 className='inline  text-[18px]'> ROBE SOURCING  LTD.</h5>
+                    <p className='text-start text-[11px] px-4 mt-1 w-fit'>
                         RSIL is a pioneering, dynamic, professionally managed business organization that has strong experience in the field of readymade garments sector with world-class service, quality solutions and value addition services to end products for the textile industries on a global level, beginning from fabrics to fashion through market knowledge, experienced sourcing professionals.
                     </p>
                 </div>
@@ -46,8 +46,8 @@ const Footer = () => {
                 <div className="text-start mt-7">
                     <div className="text-xs">
                         <div className="text-lg mb-4">Address:</div>
-                        <div className="hf">House # 5, Road # 03,</div>
-                        <div className="hf">Sector # 09. Uttara-1230, Dhaka, Bangladesh</div>
+                        <div className="hf">House: 05, Road: 03,</div>
+                        <div className="hf">Sector: 09. Uttara-1230, Dhaka, Bangladesh</div>
                         <div className="hf">Phone: (+880) 1978047557 </div>
                         <div className="ml-10">  (+880) 9611832626  </div>
                     </div>

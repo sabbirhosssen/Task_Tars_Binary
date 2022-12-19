@@ -46,7 +46,7 @@ export default function TopNavbar() {
                     alt="Your Company"
                   />
                                   
-                    <h6 className='inline-block text-xs text-white' style={{fontSize:"10px"}}>ROBE SOURCING INTERNATIONAL LTD.</h6>
+                    <h6 className='inline-block text-xs text-white' style={{fontSize:"12px"}}>ROBE SOURCING  LTD.</h6>
                 </div>
                 <div className="hidden sm:ml-6 lg:ml-20 sm:block ">
                   <div className="flex space-x-4 justify-center justify-items-center">

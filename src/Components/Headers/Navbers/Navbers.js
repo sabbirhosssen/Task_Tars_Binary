@@ -7,7 +7,7 @@ const Navbers = () => {
       <div className='flex justify-between  justify-items-center bg-gray-600 text-white py-7 sm:px-5 md:px-12 lg:px-20'>
         <div className='text-start text-xs justify-center'>
           <img className='w-14 h-14' src={logo} alt="" />
-          <p className='' style={{fontSize:"8px"}}>ROBE SOURCING INTERNATIONAL LTD.</p>
+          <p className='' style={{fontSize:"12px"}}>ROBE SOURCING LTD.</p>
         </div>
         <div className='flex sm:text-xs sm:space-x-12 lg:space-x-8 text-center justify-center justify-items-center'>
           <div>Home</div>
