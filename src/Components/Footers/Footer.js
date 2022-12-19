@@ -1,20 +1,25 @@
 import React from 'react';
 import { BsFacebook, BsFillPlayFill, BsLinkedin } from "react-icons/bs";
 import { MdCall } from "react-icons/md";
+//image
+import logof from './../Images/logo-removebg-preview.png';
 const Footer = () => {
     return (
-        <div className='bg-gray-700  text-white pb-12  pt-12'>
+        <div className='bg-gray-700  text-white pb-1  pt-12'>
             
 
 
             <div className='grid grid-cols-4  gap-2 justify-around justify-items-center   '>
                 <div className="">
-                    <h5 className='inline mb-5'> ROBE SOURCING INTERNATIONAL LTD.</h5>
-                    <p className='text-start  mt-5 w-fit'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    <div className=' ml-16'>
+                        <img className='w-20 h-auto' src={logof} alt="" />
+                    </div>
+                    <h5 className='inline  text-[18px]'> ROBE SOURCING INTERNATIONAL LTD.</h5>
+                    <p className='text-start text-[11px] p-2 mt-1 w-fit'>
+                        RSIL is a pioneering, dynamic, professionally managed business organization that has strong experience in the field of readymade garments sector with world-class service, quality solutions and value addition services to end products for the textile industries on a global level, beginning from fabrics to fashion through market knowledge, experienced sourcing professionals.
                     </p>
                 </div>
-                <div className="text-start">
+                <div className="text-start mt-7">
                     <h4 className='mb-4'>Details</h4>
                     <ul className='text-xs'>
                         <li>Join Us</li>
@@ -25,7 +30,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="h2">
-                    <div className="text-start">
+                    <div className="text-start mt-7">
                         <h4 className='mb-4'>Company Profile</h4>
                     <ul className='text-xs'>
                         <li className='inline'>Home</li>
@@ -38,7 +43,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 </div>
-                <div className="text-start">
+                <div className="text-start mt-7">
                     <div className="text-xs">
                         <div className="text-lg mb-4">Address:</div>
                         <div className="hf">House # 5, Road # 03,</div>
@@ -51,17 +56,17 @@ const Footer = () => {
             </div>
 
 
-            <div className='bg-gray-900 flex justify-between px-12 my-8'>
-                <p className=''>
+            <div className=' flex justify-between lg:px-12 sm:p-0  mt-8 mb-0'>
+                <p className='text-[14px] mt-1'>
                 robesourcing.com ©2020
                 </p>
-                <div className='flex flex-row justify-center justify-items-center gap-5'>
-                    <div className=''>Get Social</div>
-                    <div className=''><BsFacebook/></div>
-                    <div className=''> <BsLinkedin/> </div>
-                    <div className=''> <BsFillPlayFill /></div>
-                    <div className="hhk"><MdCall/></div>
-                    <div className="hhk">SUPPORT POLICY</div>
+                <div className='flex justify-center justify-items-center text-center  gap-5'>
+                    <div className='text-[18px]'>Get Social</div>
+                    <div className='text-[20px] mt-1'><BsFacebook/></div>
+                    <div className='text-[20px] mt-1'> <BsLinkedin/> </div>
+                    <div className='text-[20px] mt-1'> <BsFillPlayFill /></div>
+                    <div className="text-[20px] mt-1"><MdCall/></div>
+                    <div className="text-[18px]">SUPPORT POLICY</div>
                 </div>
             </div>
         </div>
