@@ -1,14 +1,22 @@
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Fragment } from 'react'
-import logo from './../../Images/logo-removebg-preview.png'
+import logo from './../../../Images/5.png'
+import search from './../../../Images/SEARCH.png'
+import shop from './../../../Images/shopping-bag.png'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About Us', href: '#', current: false },
-  { name: 'Products', href: '#', current: false },
-  { name: 'Join Us', href: '#', current: false },
-  { name: 'Contacts', href: '#', current: false },
+  { name: 'Defense Projects', href: '#', current: true },
+  { name: 'Engineering School', href: '#', current: false },
+  { name: 'Engineering Volunteers', href: '#', current: false },
+  { name: 'Director Notes', href: '#', current: false },
+  { name: 'Administration', href: '#', current: false },
+  { name: 'Broad Members', href: '#', current: false },
+  { name: 'Event', href: '#', current: false },
+  { name: 'Gallery', href: '#', current: false },
+  { name: 'Document', href: '#', current: false },
+  { name: 'About', href: '#', current: false },
+  
 ]
 
 function classNames(...classes) {
@@ -16,8 +24,11 @@ function classNames(...classes) {
 }
 
 export default function TopNavbar() {
+  const stule = {
+    background:"rgb(51 51 51)"
+  }
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="" style={stule} >
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -46,7 +57,7 @@ export default function TopNavbar() {
                     alt="Your Company"
                   />
                                   
-                    <h6 className='inline-block text-xs text-white' style={{fontSize:"12px"}}>ROBE SOURCING  LTD.</h6>
+                    {/* <h6 className='inline-block text-xs text-white' style={{fontSize:"12px"}}>TARS BINARY</h6> */}
                 </div>
                 <div className="hidden sm:ml-6 lg:ml-20 sm:block ">
                   <div className="flex space-x-4 justify-center justify-items-center">
@@ -56,7 +67,7 @@ export default function TopNavbar() {
                         href={item.href}
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium'
+                          'px-1 py-2 rounded-md text-[9px] '
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
@@ -66,13 +77,15 @@ export default function TopNavbar() {
                   </div>
                 </div>
               </div>
+              
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
                   type="button"
                   className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                 >
                   <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
+                  {/* <BellIcon className="h-6 w-6" aria-hidden="true" /> */}
+                  <img className="h-5 w-5 rounded-full" src={search} alt="" />
                 </button>
 
                 {/* Profile dropdown */}
@@ -82,7 +95,7 @@ export default function TopNavbar() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        src={shop}
                         alt=""
                       />
                     </Menu.Button>
